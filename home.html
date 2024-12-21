@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <link rel="stylesheet" href="Css/home.css">
+</head>
+<body>
+
+    <!------------------------------------------------------ Header Section ----------------------------------------------------------->
+
+
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="" alt="This is an image">
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+<!------------------------------------------------------ Home Section -------------------------------------------------------------->
+
+
+
+    <div class="home">
+        <div class="home-section">
+            <div class="home-image">
+                <img src="Images/img.jpg" alt="This is an image">
+            </div>
+            <div class="home-intro">
+                <h1>Hi, I'm <span class="name">D.Uday Kiran</span></h1>
+                <p>I’m an aspiring Front-End Developer with a passion for creating intuitive, responsive websites.</br>
+                    I’m continuously learning and building skills in HTML, CSS, JavaScript, and modern frameworks to bring ideas to life on the web.</p>
+        </div>
+    </div>
+
+
+
+
+    <!------------------------------------------------------ About Section -------------------------------------------------------------->
+
+
+    <div id="about">
+        <div class="first">
+            <div class="col2">
+                <h1 class="subtitle" style="font-size:50px">About Me</h1>
+                <p style="color:#333333">Enthusiastic and detail-oriented front-end developer with a sfoundation in HTML, CSS, JavaScript, and modern libraries/frameworks such as React.js.</br> 
+                Eager to apply my skills to create responsive and user-friendly web applications. 
+                Committed to continuous learning and staying up-to-date with the </br> latest industry trends. 
+                Seeking an entry-level position at a forward-thinking company where i can contribute dynamic projects and grow as aprofessional.</p>
+                                        
+                                        
+                <div class="tab-titles">
+                    <p class="tab-links active-links" onclick="opentab('skills')" style="color:#457B9D">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')" style="color:#457B9D">Education</p>
+                </div>
+                        
+                <div class="tab-contents active-tab" id="skills">
+                    <div class="dev">
+                        <div class="skills1">
+                            <h2>FrontEnd Skills</h2>
+                            <ul>
+                                <li><span>HTML5</span></br></li>
+                                <li><span>CSS3</span></br></li>
+                                <li><span>JavaScript</span></br></li>
+                                <li> <span>React.Js</span></br></li>
+                                <li> <span>Tailwind Css</span></br></li>
+                            </ul>
+                        </div>
+                        <div class="skills2">
+                            <h2>BackEnd Skills</h2>
+                            <ul>
+                                <li><span>Java</span></br></li>
+                                <li><span>MySQL</span></br></li>
+                                <li><span>MongoDB</span></br></li>
+                                <li> <span>Python</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                        
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020-2024</span></br>
+                            Bachelor's of Technology</br>
+                            Bharat Institute of Engineering and Technology,Hyderabad</br>
+                            CGPA : 7.0
+                        </li>
+                        <li><span>2018-2020</span></br>
+                             Intermediate</br>
+                                Gayatri junior Kalasala,Hyderabad</br>
+                            Percentage : 84%
+                        </li>
+                    </ul>
+                </div>           
+            </div>
+        </div>
+    </div>
+
+
+    
+<!------------------Projects----------------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-user-tie"></i>
+                    <h2>Responsive Personal Portfolio</h2>
+                    <p>A personal portfolio website built with HTML, CSS, and JavaScript.It features a clean & smooth experience. </p>
+                    <a href="#" class="d-links">Learn more <i class="fa-regular fa-share-from-square" style="font-size:20px"></i></a>
+                </div>
+                
+                <div>
+                    <i class="fa-solid fa-cloud-sun"></i>
+                    <h2>Weather Forecast App - JS</h2>
+                    <p>This web application allows users to check real-time weather updates by entering a city name.</p>
+                    <a href="https://udaykirandolu.github.io/WebDev-Projects/" class="d-links">Learn more <i class="fa-regular fa-share-from-square" style="font-size:20px"></i></a> 
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-clipboard-list"></i>
+                    <h2>ToDo List - React</h2>
+                    <p>A simple To-Do list app built with React that allows users to add, edit, and delete tasks. </p>
+                    <a href="#" class="d-links">Learn more <i class="fa-regular fa-share-from-square" style="font-size:20px"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-------------------------------------------------------- Contact ------------------------------------------------------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="con-details">
+                <div class="left-side">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>udaykiran11949@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8309093639</p>
+                    <div class="icons">
+                        <a href="https://www.linkedin.com/in/udaykirandolu/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://x.com/DoluUday"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://github.com/UdayKiranDolu"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <button class="btn" onclick="downloadPDF()">Download RESUME</button>
+                </div>
+                <div class="right-side">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                       <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+                       <button class="btn">Submit</button>
+                    </form>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------------------------------------------------ Footer Section -------------------------------------------------------------->
+
+
+    <footer>
+        <div class="footer-content">
+               
+            <div class="social-links">
+                <p>Follow me:</p>
+                <ul>
+                    <li><a href="https://github.com/UdayKiranDolu" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/udaykirandolu" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div  class="f-2">
+                <p>&copy; 2024 UdayKiran Dolu. All rights reserved.</p>
+              </div>
+        </div>
+        
+    </footer>
+
+    <!------------------------------------------------------ End -------------------------------------------------------------->
+
+
+    <script src="script.js"></script>
+</body>
+</html>

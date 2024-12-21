@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#contact{
+    height:450px;
+    background: #F1FAEE ;
+    color:#1D3557 ;
+    width:100%;
+}
+.con-details{
+    /* margin: 50px 30px ; */
+    margin-left:50px;
+    display:flex;
+    align-items:center;
+}
+.left-side{
+    margin: 30px;
+    flex-basis:35%;
+}
+.right-side{
+    flex-basis:50%;
+}
+.left-side h1{
+    color:#ff004f; 
+    font-size:50px;
+    font-weight: 500;
+}
+.left-side p{
+    margin-top:30px;
+    font-size:25px;
+    font-weight:500;
+}
+.left-side p i{
+    color:#ff004f;
+    margin-right:15px;
+    font-size:25px;
+}
+.icons{
+    margin:30px;
+}
+.icons a{
+    text-decoration:none;
+    font-size:30px;
+    margin:15px;
+    display: inline-block;
+    color:#ababab;
+    transition:0.5s;
+}
+.icons a:hover{
+    color:#ff004f;
+    transform:translatey(-6px);
+}
+.btn{
+    display: inline-block;
+    margin:20px auto;
+    width:fit-content;
+    padding:14px 50px;
+    border-radius:6px;
+    background:#ff004f;
+    text-decoration: none;
+    color:#fff;
+}
+.btn:hover{
+    background:#ff004f;
+}
+.right-side{
+    width:100%;
+}
+.right-side form{
+width:100;
+}
+
+form input, form textarea{
+    width:100%;
+    border:0;
+    outline:none;
+    padding:15px;
+    margin:15px 0;
+    background:#262626;
+    color:#fff;
+
+}
+form .btn{
+    padding:14px 60px;
+    margin-top:20px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+/*------------------- for mobile screens ---------------- */
+@media only screen and (max-width:600px){
+    #contact{
+        height:auto;
+       background-color:#262626;
+    }
+    .con-details{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left:20px;
+    }
+    
+    .left-side p{
+        font-size: 1.2rem;
+        color:#ababab
+    }
+    .right-side{
+        height:auto;
+        width:auto;
+        margin-right:20px;
+       
+    }
+    .right-side form input{
+        background-color: #ababab;
+        
+    }
+    .right-side textarea{
+        background-color: #ababab;
+    }
+}

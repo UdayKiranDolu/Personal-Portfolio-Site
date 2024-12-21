@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*---------About Me--------------------------------*/
+body{
+    margin : 0;
+    padding:0;
+}
+#about{
+   
+    color:#ababab;
+    height:100vh;
+    align-items: center;
+    background: #F1F5F9;
+} 
+.first {
+    margin: 30px; 
+ 
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap:wrap;  
+    color:#ababab;
+}
+.subtitle {
+    color:#111827;
+    
+}
+
+.col2 p{
+    
+    font-size:18px;
+    color:#ababab;
+    margin-top:15px;
+}
+
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+   
+}
+.tab-links p{
+    color:red;
+}
+.tab-links{
+    color:red;
+    margin-right:50px;
+    font-size:18px;
+    font: weight 500px;
+    cursor:pointer;
+    position:relative;
+}
+.tab-links::after{
+    content:'';
+    width:0;
+    height:3px;
+    background:#ff040f;
+    position:absolute;
+    transition:0.5s ease-in;
+    left:0;
+    bottom:-7px;
+}
+.tab-links.active-links::after{
+    width:50%;
+}
+.dev{
+    display:flex;
+    gap:40px;
+}
+.tab-contents ul li{
+    list-style:none;
+    color:rgb(141, 107, 219);
+    margin:10px 0;
+    font-size:18px;
+    margin:10px ;
+}
+.tab-contents ul li span{
+    color:#b54769;
+    font-size:18px;
+}
+.tab-contents{
+    
+    display:none;
+}
+.tab-contents.active-tab{
+    display:block;
+}

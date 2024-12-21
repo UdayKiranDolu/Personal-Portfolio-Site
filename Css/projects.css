@@ -1,0 +1,73 @@
+/*-----------------projects--------------------*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#services{
+    padding:0 50px;
+    height:100vh;
+    background:whitesmoke;
+}
+
+.services-list{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap :40px;
+    margin-top :50px;
+}
+.services-list div{
+    background:#262626;
+    color:#fff;
+    padding:40px;
+    margin-bottom:30px; ;
+    font-size: 25px;
+    font-weight:300;
+    border-right:10px;
+    border-radius:20px;
+    transition: transform 0.5s;
+}
+.services-list div i{
+    font-size:30px;
+    margin-bottom:20px;
+}
+.services-list div h2{
+    font-size:30px;
+    font-weight:500;
+    margin-bottom:15px;
+}
+.services-list div a{
+    text-decoration:none;
+    color:#fff;
+    font-size:20px;
+    margin-top:20px;
+    display: inline-block;
+
+}
+.services-list div  p{
+    color:#bea4a4;
+}
+.sub-title{
+    padding:20px 20px 0 0;
+    font-size: 50px;
+}
+.services-list div:hover{
+    background:#ff004f;
+    transform:translate(-10px);
+}
+a{
+    border:1px solid #ccc;
+    padding: 20px;
+    padding-bottom:0;
+    align-content: center;
+    border-radius:20px;
+}
+a:hover{
+    background: rgb(26, 1, 6);
+}
+
+
+@media only screen and (max-width:600px){
+    
+
+}
