@@ -385,7 +385,7 @@ a:hover{
 
 .footer-content{
     background: #000;
-    height : 150px;
+    height : auto;
     color:#fff;
     padding: 40px;
     line-height:30px;
@@ -393,10 +393,12 @@ a:hover{
     width:100%;
 }
 .social-links{
+   
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 .social-links p{
     font-size: 1.3rem;
@@ -430,7 +432,7 @@ a:hover{
 
 /* <!---------------------------------------------------- Mobile Screens ------------------------------------------------------> */
 
-@media  only screen and (max-width:770px){
+@media  (min-width: 300px) and (max-width:600px){
     .header{
         width:auto;
         
@@ -478,7 +480,7 @@ a:hover{
 /*<!---------------------------------------------------- Contact Me------------------------------------------------------> */
 #contact{
     height:auto;
-    width:100%;
+    width:auto;
     padding-bottom:30px;
 }
 .icons{
@@ -488,14 +490,19 @@ a:hover{
     align-content: center;
     margin:10px 10px 10px 0 ;
 }
-.right-side form input{
-    width:100%;
-    border:0;
-    outline:none;
-    padding:15px;
-    margin:15px 0;
-    background:#262626;
-    color:#fff;
+.icons a{
+    font-size:40px;
+    border:none;
+    padding:0;
+}
+.left-side{
+    margin-left :0px;
+}
+
+.right-side form input,form textarea{
+    min-width: 250px;
+    max-width:500px;
+
 }
 
 /*<!----------------------------------------------------Footer------------------------------------------------------> */
